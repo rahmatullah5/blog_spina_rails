@@ -1,0 +1,21 @@
+h1 Listing dummies
+
+table
+  thead
+    tr
+      th Text
+      th
+      th
+      th
+
+  tbody
+    - @dummies.each do |dummy|
+      tr
+        td = dummy.text
+        td = link_to 'Show', dummy
+        td = link_to 'Edit', edit_dummy_path(dummy)
+        td = link_to 'Destroy', dummy, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+
+= link_to 'New Dummy', new_dummy_path

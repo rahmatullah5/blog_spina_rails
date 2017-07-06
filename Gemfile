@@ -33,6 +33,21 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+## Interface Apps Gem
+# bootstrap
+gem 'twitter-bootstrap-rails'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass-extras'
+# jquery
+gem 'jquery-rails'
+
+## Stand Alone Gem
+gem 'simple_form'
+gem 'slim-rails', '3.1.1'
+gem 'monologue'
+gem 'spina-template'
+gem 'spina'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

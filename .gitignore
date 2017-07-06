@@ -44,4 +44,4 @@ bower.json
 .byebug_history
 
 # Ignore Database Environment Setting
-/config/database.yml
+# /config/database.yml
